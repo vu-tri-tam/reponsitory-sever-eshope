@@ -63,5 +63,7 @@ app.use(express.static('public'));//sử dụng folder public để render img
 //   next()
 // })
 
-const PORT = 3000
-app.listen(PORT, () => console.log(`sever started or ${PORT}`))
+app.get('/', (req, res) => res.send('hello world'))
+server.listen(process.env.PORT || 3000, () => {
+    console.log('Server is listening on port 5000');
+});
