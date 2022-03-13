@@ -1,0 +1,23 @@
+{
+    "images":[
+        {
+            "URL":"http://localhost:8000/images/shop/product7.jpg"
+        },
+        {
+            "URL":"http://localhost:8000/images/shop/product8.jpg"
+        },
+        {
+            "URL":"http://localhost:8000/images/shop/product9.jpg"
+        },
+        {
+            "URL":"http://localhost:8000/images/shop/product10.jpg"
+        },
+        {
+            "URL":"http://localhost:8000/images/shop/product11.jpg"
+        },
+        {
+            "URL":"http://localhost:8000/images/shop/product12.jpg"
+        }
+        
+    ]
+}

@@ -1,0 +1,90 @@
+[
+    
+        {
+    
+        
+            "tittle":"Gìay neaker 2023",
+            "price":470000,
+            "sizes":[
+                "614fe5389a4c8a4abd1ee9fc",
+                "6150370b6987c41ec26970fb",
+                "615037116987c41ec26970fd"
+            ],
+            "images":["613acd16cd4cfa3dd881cbb1","613aca20a8e7260729a8be09","613acd22cd4cfa3dd881cbb5","6139c66d72b4a9696b02e0f6"],
+            "description":"sản phẩm này được đánh giá là sản phẩm chất lượng cao, cho nên chất lượng nó khá là  tốt, đảm bảo bền vững.",
+            "color":"white",
+            "catelogyParent":"61337fc52b36f8761a3fe4ce",
+            "quantity":50,
+            "status":false
+           
+        },{
+    
+        
+            "tittle":"giày nike 2022",
+            "price":450000,
+            "sizes":[
+                "614fe5389a4c8a4abd1ee9fc",
+                "6150370b6987c41ec26970fb",
+                "615037116987c41ec26970fd"
+            ],
+            "images":["613acd27cd4cfa3dd881cbb7","613aca20a8e7260729a8be09","613acd2ccd4cfa3dd881cbb9","6139c66d72b4a9696b02e0f6"],
+            "description":"sản phẩm này được đánh giá là sản phẩm chất lượng cao, cho nên chất lượng nó khá là  tốt, đảm bảo bền vững.",
+            "color":"white",
+            "catelogyParent":"61337fc52b36f8761a3fe4ce",
+            "quantity":50,
+            "status":true
+           
+        },{
+    
+        
+            "tittle":"Sản phẩm 2022",
+            "price":630000,
+            "sizes":[
+                "614fe5389a4c8a4abd1ee9fc",
+                "6150370b6987c41ec26970fb",
+                "615037116987c41ec26970fd"
+            ],
+            "images":["613acd30cd4cfa3dd881cbbb","613aca20a8e7260729a8be09","613acd27cd4cfa3dd881cbb7","6139c66d72b4a9696b02e0f6"],
+            "description":"sản phẩm này được đánh giá là sản phẩm chất lượng cao, cho nên chất lượng nó khá là  tốt, đảm bảo bền vững.",
+            "color":"white",
+            "catelogyParent":"61337fe72b36f8761a3fe4d3",
+            "quantity":50,
+            "status":true
+           
+        },{
+    
+        
+            "tittle":"fashion new 2022",
+            "price":970000,
+            "sizes":[
+                "614fe5389a4c8a4abd1ee9fc",
+                "6150370b6987c41ec26970fb",
+                "615037116987c41ec26970fd"
+            ],
+            "images":["613aca1ca8e7260729a8be07","613aca20a8e7260729a8be09","613aca27a8e7260729a8be0b","6139c66d72b4a9696b02e0f6"],
+            "description":"sản phẩm này được đánh giá là sản phẩm chất lượng cao, cho nên chất lượng nó khá là  tốt, đảm bảo bền vững.",
+            "color":"black",
+            "catelogyParent":"61337fe72b36f8761a3fe4d3",
+            "quantity":50,
+            "status":false
+           
+        },{
+    
+        
+            "tittle":"Sản phẩm hot 2021",
+            "price":600000,
+            "sizes":[
+                "614fe5389a4c8a4abd1ee9fc",
+                "6150370b6987c41ec26970fb",
+                "615037116987c41ec26970fd"
+            ],
+            "images":["613aca27a8e7260729a8be0b","613aca20a8e7260729a8be09","613acd22cd4cfa3dd881cbb5","6139c66d72b4a9696b02e0f6"],
+            "description":"sản phẩm này được đánh giá là sản phẩm chất lượng cao, cho nên chất lượng nó khá là  tốt, đảm bảo bền vững.",
+            "color":"yellow",
+            "catelogyParent":"61337fc52b36f8761a3fe4ce",
+            "quantity":50,
+            "status":false
+           
+        }
+    
+    ]

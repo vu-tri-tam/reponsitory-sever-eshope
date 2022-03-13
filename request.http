@@ -1,0 +1,285 @@
+POST http://localhost:8000/api/auth/register
+Content-Type: application/json
+
+{
+    "userName": "VuNguyenThuyLinhDang",
+    "decentralization":false,
+    "passWord": "123456789"
+}
+
+
+
+###
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+
+{
+    "userName": "VuTriTam",
+    "passWord": "123456"
+}
+
+
+
+
+###
+GET http://localhost:8000/api/catelogy
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzQxNTR9.iZiURwQiMdKKuCPauI5kAd6-kOJaQiPSM-yrqlxZZ2M
+
+
+
+
+###
+POST http://localhost:8000/api/catelogy
+Content-Type: application/json
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzU4NTR9.gYbggaI9SO71HgrmNyAEZgcFZEUojQG2HfNwBWilH5E
+
+
+
+{
+    "tittle":"Thời trang nam"  
+}
+
+
+
+
+###
+POST http://localhost:8000/api/detail-size-pro
+Content-Type: application/json
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzU4NTR9.gYbggaI9SO71HgrmNyAEZgcFZEUojQG2HfNwBWilH5E
+
+
+
+{
+    "product":["613ad0b06c71aeda00ce432e","613ad0b06c71aeda00ce432b","613ad0b06c71aeda00ce432c"]  ,
+    "size":["614fe5389a4c8a4abd1ee9fc","6150370b6987c41ec26970fb","615037116987c41ec26970fd"]
+}
+
+
+
+
+###
+GET http://localhost:8000/api/detail-size-pro
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzU4NTR9.gYbggaI9SO71HgrmNyAEZgcFZEUojQG2HfNwBWilH5E
+
+
+
+
+
+
+###
+POST http://localhost:8000/api/products
+Content-Type: application/json
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzU4NTR9.gYbggaI9SO71HgrmNyAEZgcFZEUojQG2HfNwBWilH5E
+
+
+        {
+    
+        
+            "tittle":"Gìay neaker 2023",
+            "price":470000,
+            "sizes":[
+                "614fe5389a4c8a4abd1ee9fc",
+                "6150370b6987c41ec26970fb",
+                "615037116987c41ec26970fd"
+            ],
+            "images":["613acd16cd4cfa3dd881cbb1","613aca20a8e7260729a8be09","613acd22cd4cfa3dd881cbb5","6139c66d72b4a9696b02e0f6"],
+            "description":"sản phẩm này được đánh giá là sản phẩm chất lượng cao, cho nên chất lượng nó khá là  tốt, đảm bảo bền vững.",
+            "color":"white",
+            "catelogyParent":"61337fc52b36f8761a3fe4ce",
+            "quantity":50,
+            "status":false
+           
+        }
+
+
+
+###
+POST http://localhost:8000/api/coupon
+Content-Type: application/json
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzU4NTR9.gYbggaI9SO71HgrmNyAEZgcFZEUojQG2HfNwBWilH5E
+
+
+
+{
+        "images":"http://localhost:8000/images/coupons/Coupon.jpg",
+        "tittle":"Gỉam 7k đơn tối thiểu từ 200k",
+        "content":"Lưu ý mã chỉ áp dụng một lần duy nhất",
+        "priceCoupon":7000,
+        "expiry": "2021-09-29"
+        
+
+}
+
+
+
+###
+POST http://localhost:8000/api/checkout
+Content-Type: application/json
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzU4NTR9.gYbggaI9SO71HgrmNyAEZgcFZEUojQG2HfNwBWilH5E
+
+
+
+{
+        "products":[
+            "613ad0b06c71aeda00ce432a",
+            "613ad0b06c71aeda00ce432b"
+        ],
+        "code":15347477,
+        "ZIPcode":423231,
+        "Email":"vutritamiuem@gmail.com",
+        "phone":"0967979049",
+        "date":"2022-12-16",
+        "totalProduct":390000,
+        "address":"ấp vịnh, xã an cơ, châu thành, tây ninh",
+        "note":"Mong shop giao hàng chất lượng nhé",
+        "orther":"không có thông tin"
+        
+        
+
+}
+
+
+
+
+
+
+###
+POST http://localhost:8000/api/province
+Content-Type: application/json
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzU4NTR9.gYbggaI9SO71HgrmNyAEZgcFZEUojQG2HfNwBWilH5E
+
+
+
+
+{
+    "name": "Thành phố kiên giang",
+    "code": 1,
+    "division_type": "thành phố trung ương",
+    "phone_code": 70,
+    "codename": "thanh_pho_kien_giang",
+    "districts": [
+      {
+        "name": "Huyện châu thành",
+        "code": 1,
+        "codename": "huyen_chau_thanh",
+        "division_type": "Huyện",
+        "province_code": 1
+    
+      }
+    
+    ]
+}
+        
+        
+        
+
+
+
+
+
+
+###
+GET http://localhost:8000/api/coupon
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzU4NTR9.gYbggaI9SO71HgrmNyAEZgcFZEUojQG2HfNwBWilH5E
+
+
+
+###
+PATCH  http://localhost:8000/api/coupon/61499379de1d47b6d2f0f444
+Content-Type: application/json
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzU4NTR9.gYbggaI9SO71HgrmNyAEZgcFZEUojQG2HfNwBWilH5E
+
+
+{
+  
+        "images":"http://localhost:8000/images/coupons/Coupon.jpg",
+        "tittle":"Gỉam 7k đơn tối thiểu từ 200k",
+        "content":"Lưu ý mã chỉ áp dụng một lần duy nhất",
+        "status":true,
+        "priceCoupon":7000,
+        "expiry": "2021-09-29"
+}
+
+
+
+###
+GET http://localhost:8000/api/products
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzQxNTR9.iZiURwQiMdKKuCPauI5kAd6-kOJaQiPSM-yrqlxZZ2M
+
+
+
+###
+GET http://localhost:8000/api/products/catelogy/61337fe32b36f8761a3fe4d1
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzQxNTR9.iZiURwQiMdKKuCPauI5kAd6-kOJaQiPSM-yrqlxZZ2M
+
+
+
+###
+GET http://localhost:8000/api/comment/61337fe32b36f8761a3fe4d1
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzQxNTR9.iZiURwQiMdKKuCPauI5kAd6-kOJaQiPSM-yrqlxZZ2M
+
+
+
+###
+POST http://localhost:8000/api/sizes
+Content-Type: application/json
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzU4NTR9.gYbggaI9SO71HgrmNyAEZgcFZEUojQG2HfNwBWilH5E
+
+
+{
+            "sizeNumber":41,
+            "detailSize":"sản phẩm này được đánh giá là sản phẩm chất lượng cao, cho nên chất lượng nó khá là  tốt, đảm bảo bền vững."
+            
+}
+
+
+
+
+###
+GET http://localhost:8000/api/sizes
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzQxNTR9.iZiURwQiMdKKuCPauI5kAd6-kOJaQiPSM-yrqlxZZ2M
+
+
+
+###
+GET http://localhost:8000/api/auth
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzU4NTR9.gYbggaI9SO71HgrmNyAEZgcFZEUojQG2HfNwBWilH5E
+
+
+###
+PUT http://localhost:8000/api/products/6131a4dc387362989c84fe8e
+Content-Type: application/json
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzU4NTR9.gYbggaI9SO71HgrmNyAEZgcFZEUojQG2HfNwBWilH5E
+
+{
+    
+            "tittle":"Sản phẩm thời trang mới 2022",
+            "price":4400000,
+            "size":39,
+            "images":[
+                "613aca20a8e7260729a8be09",
+                "613aca20a8e7260729a8be09",
+                "613acd22cd4cfa3dd881cbb5",
+                "6139c66d72b4a9696b02e0f6"
+                ],
+            "description":"sản phẩm này được đánh giá là sản phẩm chất lượng cao, cho nên chất lượng nó khá là  tốt, đảm bảo bền vững.",
+            "color":"green",
+            "catelogyParent":"61337fc52b36f8761a3fe4ce",
+            "quantity":50,
+            "status":false
+}
+
+###
+DELETE  http://localhost:8000/api/products/612d8fe214b5ec68e152f586
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzU4NTR9.gYbggaI9SO71HgrmNyAEZgcFZEUojQG2HfNwBWilH5E
+
+
+###
+POST http://localhost:8000/api/images
+Content-Type: application/json
+Authorization: :Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjZWNiOGFhNDk2OGJmMGVhMTI1ZjgiLCJpYXQiOjE2MzAzNzU4NTR9.gYbggaI9SO71HgrmNyAEZgcFZEUojQG2HfNwBWilH5E
+
+
+{
+    "URL":"http://localhost:8000/images/home/product2.jpg"
+}

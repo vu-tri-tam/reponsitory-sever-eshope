@@ -1,0 +1,57 @@
+[
+    
+{
+    "name": "Thành phố tây ninh",
+    "code": 1,
+    "division_type": "thành phố trung ương",
+    "phone_code": 70,
+    "codename": "thanh_pho_tay_ninh",
+    "districts": [
+      {
+        "name": "Huyện châu thành",
+        "code": 1,
+        "codename": "huyen_chau_thanh",
+        "division_type": "Huyện",
+        "province_code": 1
+    
+      }
+    
+    ]
+},
+
+{
+    "name": "Thành phố hồ chí minh",
+    "code": 1,
+    "division_type": "thành phố trung ương",
+    "phone_code": 23,
+    "codename": "thanh_pho_ho_chi_minh",
+    "districts": [
+      {
+        "name": "Quận 12",
+        "code": 1,
+        "codename": "quan_12",
+        "division_type": "Quan",
+        "province_code": 1
+    
+      },
+      {
+        "name": "Quận tân phú",
+        "code": 2,
+        "codename": "quan_tan_phu",
+        "division_type": "Quan",
+        "province_code": 2
+    
+      },
+      {
+        "name": "Quận tân bình",
+        "code": 3,
+        "codename": "quan_tan_binh",
+        "division_type": "Quan",
+        "province_code": 3
+    
+      }
+    
+    ]
+}
+
+]

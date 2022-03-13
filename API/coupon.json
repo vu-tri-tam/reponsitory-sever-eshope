@@ -1,0 +1,30 @@
+[
+    {
+        "images":"http://localhost:8000/images/coupons/Coupon.jpg",
+        "tittle":"Gỉam 7k đơn tối thiểu từ 200k",
+        "content":"Lưu ý mã chỉ áp dụng một lần duy nhất",
+        "priceCoupon":7000,
+        "status":false,
+        "expiry": "2021-10-20"
+        
+
+},{
+    "images":"http://localhost:8000/images/coupons/coupon1.jpg",
+    "tittle":"Gỉam 50k đơn tối thiểu từ 200k",
+    "content":"Lưu ý mã chỉ áp dụng một lần duy nhất",
+    "priceCoupon":50000,
+    "status":false,
+    "expiry": "2022-09-29"
+    
+
+},{
+    "images":"http://localhost:8000/images/coupons/christinescakes_10percentoff_coupon.png",
+    "tittle":"Gỉam 100k đơn tối thiểu từ 200k",
+    "content":"Lưu ý mã chỉ áp dụng một lần duy nhất",
+    "priceCoupon":100000,
+    "status":false,
+    "expiry": "2022-11-03"
+    
+
+}
+]
