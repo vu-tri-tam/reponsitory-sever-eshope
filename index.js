@@ -63,5 +63,5 @@ app.use(express.static('public'));//sử dụng folder public để render img
 //   next()
 // })
 
-const PORT = 8000
+const PORT = 3000
 app.listen(PORT, () => console.log(`sever started or ${PORT}`))
